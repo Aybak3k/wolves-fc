@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>experimental</title>
+    <style>
+        #con{width:500px;height:250px;margin-left:25%;border:2px solid #000;background-size: cover}
+        #b{width:70px;height:35px;background-color: darkviolet;position:relative;left:20px;top:20px;
+        color:#fff;font-style: bold;}
+        #d{width:70px;height:35px;background-color: darkviolet;position:relative;left:20px;top:20px;
+        color:#fff;font-style: bold;}
+    </style>
+    <script>
+    function change(){
+        document.getElementById("con").style.backgroundImage = "url(2.jpg)"
+    }
+    function Change(){
+        document.getElementById("con").style.backgroundImage = "url(1.jpg)"
+    }
+    </script>
+</head>
+<body>
+    <button id="b" onclick="change()">pic1</button>
+    <button id="d" onclick="Change()">pic2</button>
+<div id="con"></div>
+</body>

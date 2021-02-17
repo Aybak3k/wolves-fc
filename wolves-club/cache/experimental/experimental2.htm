@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>experimental2</title>
+    <style>
+        #hcon{background-attachment: fixed;background-size: cover;background-position: center;background-repeat: no-repeat  }
+        
+    </style>
+    
+    <script>
+        function changebg(image){
+            document.getElementsByTagName('body')[0].style.
+            backgroundImage= image.value;
+        }
+    </script>
+    
+</head>
+<body>
+<select onchange="changebg(this)">
+    <option>select</option>
+    <option value="url('f.jpg')">Soccer</option>
+    <option value="url('b.jpg')">basketball</option>  
+    <option value="url('s.jpg')">swimming</option>
+    <option value="url('t.jpg')">tennis</option>
+    </select>
+
+<!---->
+</body>
+</html>

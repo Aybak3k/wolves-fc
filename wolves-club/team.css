@@ -1,0 +1,26 @@
+body{
+    font-family: cursive;
+    background-image:url("bridge.jpg");
+	background-attachment:fixed;
+	background-size:cover;	
+	background-position:center;
+    color: #fff;
+}
+img {
+    width:250px;
+    height:190px;
+    border: 2px solid #161640;
+    border-radius: 10px;
+    /*box-shadow: -7px 7px 7px #555;
+    -webkit-box-shadow: -7px 7px 7px #555;*/
+    transition: all .5s ease-in-out;
+        margin: auto auto;
+display: block;
+    position: relative;
+    top:30px;
+    
+}
+img:hover{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+}

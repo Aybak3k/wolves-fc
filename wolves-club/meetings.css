@@ -1,0 +1,155 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+        body{font-family: Arial;}
+/********************************************************************************************************************************?*/
+        nav{width:100%;height:80px;background-color:#161640;
+             background-image: linear-gradient(#161640,#1b1b58);
+    -webkit-background-image: linear-gradient(#161640,#1b1b58);
+            position:sticky;top:0%;z-index:1/*overflow: hidden*/}
+        nav img{float: left;position: relative;top:3px;left: 9px;
+            ;width: 80px;height: 80px;}
+        nav h1{float: left;color: #fff;position: relative;top:18px;left: 19px;
+            ;font-size:2em;text-transform:uppercase}
+        #cells a{text-decoration: none; color:#fff;}
+        #cells {list-style-type: none;height:100%}
+        /*88888888888888888888888888888888888888888888888888888888888888  height >>block padding:22px 15px 22px 15px ;*/
+        .nav-a{font-size: 1.6em;font-weight: bold;}
+#cells li{display: inline-block;position: relative;left: 50px;top:3px;transition:all .3s ease-in-out;margin-right: 3px;min-width: 110px;text-align: center;height: 87%;}
+        #cells li:hover{background-color: #fff;border-radius:8px;}
+        #cells li:hover a{color:#161640}
+#cells li > a{position: relative;top:30%}
+.ss{
+    display: none;           position: absolute;left:0; margin-top: 35px;
+    z-index: 1;background-color: #fff;min-width: 100%;padding:5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border:1px solid #161640;
+}
+        #cells li:hover .ss{display: block}
+.ssa{
+    display:block;
+    margin:11px 0 8px 0;
+    font-size: 1.2em;
+    border-bottom: 1px solid #DDD;
+    padding-bottom: 2px;
+}
+.ssa:last-child{
+    border-bottom: none;
+    padding-bottom: 0
+}
+        
+        section{width: 100%;/*height*/:400px;background-image: url(.jpg);display: block;clear: both;
+        background-repeat: no-repeat;
+        background-size: cover}
+/*******************************************************************************************************************************?*/
+ /*******************************************************************************************************/
+#h,figcaption{
+    text-align: center;
+    margin: 70px 0 35px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: fantasy;
+    font-weight: 100;
+    font-size: 35px;
+    color:#161640;
+    text-shadow: 2.5px 2px 3px #555;
+    -webkit-text-shadow: 2.5px 2px 3px #555;
+    width:100%:
+    
+}
+#zt{
+    height:  1000px;
+}
+#topic{
+    float:right;
+    position: relative;
+    /*border: 2px solid #161640;*/
+    margin-right: 10px;
+    width:50%;
+   border-radius: 7px;
+    -webkit-border-radius: 7px;
+    min-height: 750px;
+}
+#topic,#content{
+        min-height: 800px;
+}
+video,figure{
+    border: 2px solid #161640;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    box-shadow: 2.5px 7px 7px #555;
+    -webkit-box-shadow: 2.5px 7px 7px #555;
+    float:right;
+    position:absolute;
+    right: 10px;
+    margin-top: 15px;
+}
+figure{
+    top:280px;
+}
+#bagera{
+    height: 380px;
+    width:290px;
+}
+figcaption{
+    margin: 5px 0 5px 0;font-size: 20px;
+}
+/*
+
+*/
+
+
+#content{
+    float: left;
+    position: absolute;
+    left:18px;
+    width:50%;
+    color: #161640;
+}
+#content p{
+    margin-left: 5px;
+    letter-spacing: .5px;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+#new{
+    margin-top: 26px;
+    margin-bottom: 7px;
+    font-size:1.5em;
+    border-bottom: 2px solid #161640;
+    padding-bottom: 3px;
+}
+#vato{
+    position: absolute;
+    top:340px;
+}
+#vato a{
+    color: #1b1b88;
+}
+
+/*source{margin-top: 0;} ,source*/
+ /*******************************************************************************************************/
+footer{
+    margin-top: 40px;
+    width: 100%;
+    height: 32px;
+    background-color: #383333;
+    overflow: hidden;
+}
+#pd,#dp{
+    display: inline-block;
+    color: #fff;
+    font-size: .8em;
+    margin: 7px;
+    font-family: cursive;
+    
+}
+#pd{
+    float: left;
+    position: absolute;
+    left: 18px;
+}
+#dp{
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
