@@ -150,7 +150,7 @@
 	<input type ="number" placeholder ="year" min ="2001" max="2012" required class ="date" /><br>
 	
 	<label class="fav">Fav sport :</label>
-	<select class="fav" onchange="sport(this)" required>
+	<select class="fav" onchange="document.querySelector('body').style.backgroundImage=this.value;" required>
    <option value="url('bgsp.jpg')"  selected>Select</option>
 	<option value="url('f.jpg')">Soccer</option>
 	<option value="url('b.jpg')">Basket ball</option>
